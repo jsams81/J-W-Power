@@ -14,6 +14,8 @@
 		email="jason@synapse.ws">
 		Jason Sams
 	</author>
+	
+	<preference name="ios-statusbarstyle" value="black-opaque" />
 
 	<icon src="icon.png" />
 	
