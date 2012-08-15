@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id			= "com.synapse.jwpower"
+	version 	= "1.0.0">
+
+	<name>J-W Power</name>
+
+	<description>
+		
+	</description>
+
+	<author href="http://www.synapsewebsite.com"
+		email="jason@synapse.ws">
+		Jason Sams
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+	<icon src="http://jwapp.synapse-cms.com/resources/icons/icon.png" width="57" height="57" />
+	<icon src="http://jwapp.synapse-cms.com/resources/icons/icon@2x.png" width="114" height="114" />
+	
+	<gap:splash src="splash.png" />	
+	<gap:splash src="http://jwapp.synapse-cms.com/resources/loading/320x460.png" width="320" height="480" />
+	<gap:splash src="http://jwapp.synapse-cms.com/resources/loading/640x920.png" width="640" height="960" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="portrait" />
+</widget>
