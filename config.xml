@@ -16,6 +16,8 @@
 	</author>
 	
 	<preference name="ios-statusbarstyle" value="black-opaque" />
+	
+	<preference name="target-device" value="handset" />
 
 	<icon src="icon.png" />
 	
